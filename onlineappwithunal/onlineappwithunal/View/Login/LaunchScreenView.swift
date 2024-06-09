@@ -8,11 +8,17 @@
 import SwiftUI
 
 struct LaunchScreenView: View {
+    @Binding var launchScreenMessage: String
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            Color.green // Background color
+                .edgesIgnoringSafeArea(.all)
+            
+            Text(launchScreenMessage)
+                .font(.largeTitle)
+                .foregroundColor(.black)
+        }
     }
 }
 
-#Preview {
-    LaunchScreenView()
-}
