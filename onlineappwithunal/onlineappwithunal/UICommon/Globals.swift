@@ -7,12 +7,8 @@
 
 import SwiftUI
 
-struct Globals: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
+struct Globals {
+    static let AppName = ""
+    // static let BASE_URL
 }
 
-#Preview {
-    Globals()
-}

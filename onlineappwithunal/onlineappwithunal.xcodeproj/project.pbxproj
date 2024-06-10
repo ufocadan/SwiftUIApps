@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB296B6F2C17903C0068015C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB296B6E2C17903C0068015C /* LoginView.swift */; };
+		CB296B712C1796120068015C /* ServiceCalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB296B702C1796120068015C /* ServiceCalls.swift */; };
+		CB296B732C1799770068015C /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB296B722C1799770068015C /* Globals.swift */; };
 		CBB3F2E02C15F11B00E716A7 /* onlineappwithunalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB3F2DF2C15F11B00E716A7 /* onlineappwithunalApp.swift */; };
 		CBB3F2E22C15F11B00E716A7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB3F2E12C15F11B00E716A7 /* ContentView.swift */; };
 		CBB3F2E42C15F11C00E716A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBB3F2E32C15F11C00E716A7 /* Assets.xcassets */; };
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CB296B6E2C17903C0068015C /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		CB296B702C1796120068015C /* ServiceCalls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceCalls.swift; sourceTree = "<group>"; };
+		CB296B722C1799770068015C /* Globals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
 		CBB3F2DC2C15F11B00E716A7 /* onlineappwithunal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = onlineappwithunal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBB3F2DF2C15F11B00E716A7 /* onlineappwithunalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onlineappwithunalApp.swift; sourceTree = "<group>"; };
 		CBB3F2E12C15F11B00E716A7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -160,6 +166,8 @@
 		CBB3F30C2C15F3B400E716A7 /* UICommon */ = {
 			isa = PBXGroup;
 			children = (
+				CB296B702C1796120068015C /* ServiceCalls.swift */,
+				CB296B722C1799770068015C /* Globals.swift */,
 			);
 			path = UICommon;
 			sourceTree = "<group>";
@@ -169,6 +177,7 @@
 			children = (
 				CBB3F30E2C15F41400E716A7 /* WelcomeView.swift */,
 				CBB3F3122C1610CB00E716A7 /* LaunchScreenView.swift */,
+				CB296B6E2C17903C0068015C /* LoginView.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -306,7 +315,10 @@
 				CBB3F2E22C15F11B00E716A7 /* ContentView.swift in Sources */,
 				CBB3F30F2C15F41400E716A7 /* WelcomeView.swift in Sources */,
 				CBB3F2E02C15F11B00E716A7 /* onlineappwithunalApp.swift in Sources */,
+				CB296B6F2C17903C0068015C /* LoginView.swift in Sources */,
 				CBB3F3132C1610CB00E716A7 /* LaunchScreenView.swift in Sources */,
+				CB296B732C1799770068015C /* Globals.swift in Sources */,
+				CB296B712C1796120068015C /* ServiceCalls.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
